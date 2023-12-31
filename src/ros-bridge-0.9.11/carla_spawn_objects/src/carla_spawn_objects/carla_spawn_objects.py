@@ -48,6 +48,7 @@ class CarlaSpawnObjects(CompatibleNode):
 
         self.objects_definition_file = self.get_param('objects_definition_file', '')
         self.spawn_sensors_only = self.get_param('spawn_sensors_only', False)
+        self.vehicle_model = self.get_param('vehicle_model', '')
 
         self.players = []
         self.vehicles_sensors = []
@@ -95,8 +96,14 @@ class CarlaSpawnObjects(CompatibleNode):
                 found_sensor_actor_list = True
             elif actor_type == "sensor":
                 global_sensors.append(actor)
-            elif actor_type == "vehicle" or actor_type == "walker":
+            elif actor_type == "walker":
                 vehicles.append(actor)
+            elif actor_type == "vehicle": # workaround to force model chosen by the user
+                print(actor["type"])
+                if self.vehicle_model.startswith("vehicle."): # syntax check for input from user
+                    actor["type"] = self.vehicle_model
+                vehicles.append(actor)
+                print(actor["type"])
             else:
                 self.logwarn(
                     "Object with type {} is not a vehicle, a walker or a sensor, ignoring".format(actor["type"]))
