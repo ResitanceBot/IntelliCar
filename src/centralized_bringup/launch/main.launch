@@ -1,0 +1,23 @@
+<launch>
+    <!-- This launch file is intended to bring up all components of simulation at the same time -->
+    <!-- Launcher parameters -->
+    <arg name='host' default='localhost'/> <!-- description: server machine name | default: server running in same machine as ROS client -->
+    <arg name='port' default='2000'/> <!-- description: port of server service | default: default port of the carla server -->
+    <arg name="town" default="Town01"/> <!-- description: selector of world to load in server | default: basic town -->
+    <arg name='timeout' default='10'/> <!-- description: Timeout to reach server | default: 10s to avoid false disconnection -->
+
+    <!-- CARLA-ROS Bridge -->
+    <include file="$(find carla_ros_bridge)/launch/carla_ros_bridge.launch">
+        <arg name='host' value='$(arg host)'/>
+        <arg name='port' value='$(arg port)'/>
+        <arg name='town' value='$(arg town)'/>
+        <arg name='timeout' value='$(arg timeout)'/>
+    </include>
+
+    <!-- Object Spawner -->
+    <include file="$(find carla_spawn_objects)/launch/carla_example_ego_vehicle.launch"/>
+
+    <!-- Ackermann to Carla-Control msgs translator -->
+    <include file="$(find carla_twist_to_control)/launch/carla_twist_to_control.launch"/>
+
+</launch>
