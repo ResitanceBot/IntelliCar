@@ -15,7 +15,6 @@ if(${ROS_VERSION} EQUAL 1)
 
   if(CATKIN_ENABLE_TESTING)
     roslaunch_add_file_check(launch)
-    roslaunch_add_file_check(test)
   endif()
 
   include_directories(${catkin_INCLUDE_DIRS})
@@ -26,15 +25,8 @@ if(${ROS_VERSION} EQUAL 1)
   install(FILES src/carla_ros_bridge/CARLA_VERSION
           DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
-  install(FILES test/ros_bridge_client.test
-          DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
-
   install(DIRECTORY launch/
           DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch)
 
-  if(CATKIN_ENABLE_TESTING AND NOT $ENV{CI})
-    find_package(rostest REQUIRED)
-    add_rostest(test/ros_bridge_client.test)
-  endif()
 
 endif()

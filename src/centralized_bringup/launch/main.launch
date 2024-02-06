@@ -7,7 +7,7 @@
         | default: default port of the carla server -->
     <arg name="town" default="Town01"/> <!-- description: selector of world to load in server 
         | default: basic town -->
-    <arg name='timeout' default='10'/> <!-- description: Timeout to reach server
+    <arg name='timeout' default='200'/> <!-- description: Timeout to reach server
         | default: 10s to avoid false disconnection -->
     <arg name='vehicle_model' default=''/> <!--description: vehicle selector
         | default: Seat Leon model 
