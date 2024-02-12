@@ -64,7 +64,7 @@ class TwistToVehicleControl(CompatibleNode):  # pylint: disable=too-few-public-m
             self.logerr("Cannot determine max steering angle: Vehicle has no wheels.")
             sys.exit(1)
 
-        self.max_steering_angle = vehicle_info.wheels[0].max_steer_angle  # pylint: disable=no-member
+        self.max_steering_angle = vehicle_info.wheels[0].max_steer_angle  # 1.22 rad
         if not self.max_steering_angle:
             self.logerr("Cannot determine max steering angle: Value is %s",
                         self.max_steering_angle)

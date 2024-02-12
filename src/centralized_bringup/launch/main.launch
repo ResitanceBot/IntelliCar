@@ -2,6 +2,7 @@
     <!-- This launch file is intended to bring up all components of simulation at the same time -->
     <!-- Launcher parameters -->
     <arg name='host' default='localhost'/> <!-- description: server machine name 
+    <arg name='host' default='100.92.38.62'/>  
         | default: server running in same machine as ROS client -->
     <arg name='port' default='2000'/> <!-- description: port of server service
         | default: default port of the carla server -->
@@ -40,7 +41,11 @@
     </include>
 
     <!-- Ackermann to Carla-Control msgs translator -->
+    <include file="$(find gamepad_control)/launch/control_mando.launch"/>
     <include file="$(find carla_twist_to_control)/launch/carla_twist_to_control.launch"/>
+
+    <!-- Yolo Processing -->
+    <node name="yolo_detection" pkg="yolo_detection" type="prediction_yolov8.py"  output="screen"/>
 
     <!-- Rviz Visualizer Load -->
     <node type="rviz" name="rviz" pkg="rviz" args="-d $(find rviz_carla_plugin)/config/default.rviz" />
