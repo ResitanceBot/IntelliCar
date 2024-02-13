@@ -27,11 +27,6 @@ This project is focus on image object detection by training a model using YOLO. 
 
 ---
 
-##### CAPABILITIES
-
-
----
-
 ##### GETTING STARTED
 Software development is divided into several ROS packages:
 + *descentralized_bringup*: Placeholder for programs launchfiles.
@@ -60,6 +55,16 @@ Sofware launcher has several arguments to select what to run:
 | slam | Gmapping . (!) Not compatible with localization argument | False (&#x2612;) |
 | CNN | YOLO Model + AR node  | True (&#9745;) |
 | markers | Fire marker on map | True (&#9745;) |
+---
+##### MODEL PERFORMANCE:
+![A](imgs/confusion_matrix_normalized.png)
+![A](imgs/pr-curve.png)
+![A](imgs/results.png)
+---
+##### EXPERIMENTS RESULTS:
+![A](imgs/inferencia.png)
+![A](imgs/collage-demo.png)
+
 
 ---
 ##### PROJECT REPORT:
