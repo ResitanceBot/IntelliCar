@@ -4,3 +4,6 @@ devel/
 CARLA_0.9.11/
 yolo_training/
 *.pyc
+ros2_ws/install/
+ros2_ws/build/
+ros2_ws/log/

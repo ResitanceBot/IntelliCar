@@ -20,7 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'prediction_yolov7_node = yolo_detection.prediction_yolov7:main',
             'prediction_yolov8_node = yolo_detection.prediction_yolov8:main',
         ],
     },

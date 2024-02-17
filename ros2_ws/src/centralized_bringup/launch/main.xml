@@ -21,9 +21,13 @@
     </include>
 
     <!-- Ackermann to Carla-Control msgs translator -->
-    <include file="$(find-pkg-share )/control_mando.launch.py"/>
-    <include find="carla_twist_to_control" launch="carla_twist_to_control.launch.py"/>
+    <include file="$(find-pkg-share gamepad_driver)/launch/control_mando.xml"/>
+    <include file="$(find-pkg-share carla_twist_to_control)/carla_twist_to_control.launch.py"/>
+
+    <!-- Yolo Processing -->
+    <node name="yolo_detection_node" pkg="yolo_detection" exec="prediction_yolov8_node" output="screen"/>
     
-    
+    <!-- Rviz Visualizer Load -->
+    <node exec="rviz2" name="rviz" pkg="rviz2" args="-d $(find-pkg-share rviz_carla_plugin)/config/default.rviz" />
 
 </launch>
