@@ -1,0 +1,21 @@
+[5.973s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/rqt_carla_control': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/rqt_carla_control/prefix_override:/home/lion/intellicar/ros2_ws/install/rqt_carla_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_carla_control build --build-base /home/lion/intellicar/ros2_ws/build/rqt_carla_control/build install --record /home/lion/intellicar/ros2_ws/build/rqt_carla_control/install.log --single-version-externally-managed
+[6.363s] running egg_info
+[6.363s] writing ../../../build/rqt_carla_control/rqt_carla_control.egg-info/PKG-INFO
+[6.363s] writing dependency_links to ../../../build/rqt_carla_control/rqt_carla_control.egg-info/dependency_links.txt
+[6.364s] writing requirements to ../../../build/rqt_carla_control/rqt_carla_control.egg-info/requires.txt
+[6.366s] writing top-level names to ../../../build/rqt_carla_control/rqt_carla_control.egg-info/top_level.txt
+[6.420s] reading manifest file '../../../build/rqt_carla_control/rqt_carla_control.egg-info/SOURCES.txt'
+[6.421s] writing manifest file '../../../build/rqt_carla_control/rqt_carla_control.egg-info/SOURCES.txt'
+[6.422s] running build
+[6.422s] running build_py
+[6.422s] running build_scripts
+[6.422s] running install
+[6.425s] running install_lib
+[6.425s] running install_data
+[6.429s] running install_egg_info
+[6.429s] removing '/home/lion/intellicar/ros2_ws/install/rqt_carla_control/lib/python3.8/site-packages/rqt_carla_control-0.0.0-py3.8.egg-info' (and everything under it)
+[6.429s] Copying ../../../build/rqt_carla_control/rqt_carla_control.egg-info to /home/lion/intellicar/ros2_ws/install/rqt_carla_control/lib/python3.8/site-packages/rqt_carla_control-0.0.0-py3.8.egg-info
+[6.429s] running install_scripts
+[6.452s] changing mode of /home/lion/intellicar/ros2_ws/install/rqt_carla_control/lib/rqt_carla_control/rqt_carla_control to 775
+[6.455s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/rqt_carla_control/install.log'
+[10.914s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/rqt_carla_control' returned '0': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/rqt_carla_control/prefix_override:/home/lion/intellicar/ros2_ws/install/rqt_carla_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_carla_control build --build-base /home/lion/intellicar/ros2_ws/build/rqt_carla_control/build install --record /home/lion/intellicar/ros2_ws/build/rqt_carla_control/install.log --single-version-externally-managed

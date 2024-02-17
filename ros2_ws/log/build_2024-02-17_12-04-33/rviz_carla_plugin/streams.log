@@ -1,0 +1,124 @@
+[4.932s] Invoking command in '/home/lion/intellicar/ros2_ws/build/rviz_carla_plugin': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lion/intellicar/ros2_ws/src/ros-bridge/rviz_carla_plugin -DCMAKE_INSTALL_PREFIX=/home/lion/intellicar/ros2_ws/install/rviz_carla_plugin
+[5.015s] -- The C compiler identification is GNU 9.4.0
+[5.094s] -- The CXX compiler identification is GNU 9.4.0
+[5.100s] -- Check for working C compiler: /usr/bin/cc
+[5.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.214s] -- Detecting C compiler ABI info
+[5.324s] -- Detecting C compiler ABI info - done
+[5.339s] -- Detecting C compile features
+[5.339s] -- Detecting C compile features - done
+[5.342s] -- Check for working CXX compiler: /usr/bin/c++
+[5.472s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.473s] -- Detecting CXX compiler ABI info
+[5.605s] -- Detecting CXX compiler ABI info - done
+[5.621s] -- Detecting CXX compile features
+[5.621s] -- Detecting CXX compile features - done
+[5.625s] -- Found ros_environment: 2.5.1 (/opt/ros/foxy/share/ros_environment/cmake)
+[5.627s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.670s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.672s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.024s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[6.047s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.051s] -- Found OGRE
+[6.051s] --   static     : OFF
+[6.051s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.051s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.052s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.052s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.052s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[6.052s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.052s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[6.052s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.052s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.053s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.053s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.123s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.140s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.341s] -- Found X11: /usr/include   
+[6.341s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.509s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.510s] -- Looking for gethostbyname
+[6.703s] -- Looking for gethostbyname - found
+[6.703s] -- Looking for connect
+[6.869s] -- Looking for connect - found
+[6.869s] -- Looking for remove
+[7.054s] -- Looking for remove - found
+[7.054s] -- Looking for shmat
+[7.187s] -- Looking for shmat - found
+[7.187s] -- Looking for IceConnectionNumber in ICE
+[7.348s] -- Looking for IceConnectionNumber in ICE - found
+[7.353s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[7.353s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[7.361s] -- library: libassimp.so.5
+[7.570s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.640s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.820s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.875s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.247s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.250s] -- Looking for pthread.h
+[8.372s] -- Looking for pthread.h - found
+[8.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.481s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.481s] -- Looking for pthread_create in pthreads
+[8.557s] -- Looking for pthread_create in pthreads - not found
+[8.557s] -- Looking for pthread_create in pthread
+[8.657s] -- Looking for pthread_create in pthread - found
+[8.659s] -- Found Threads: TRUE  
+[8.985s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.553s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[9.557s] -- Found carla_msgs: 1.3.0 (/home/lion/intellicar/ros2_ws/install/carla_msgs/share/carla_msgs/cmake)
+[9.786s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[9.886s] -- Found carla_ros_scenario_runner_types: 0.1.0 (/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/share/carla_ros_scenario_runner_types/cmake)
+[10.121s] -- Configuring done
+[10.178s] -- Generating done
+[10.181s] -- Build files have been written to: /home/lion/intellicar/ros2_ws/build/rviz_carla_plugin
+[12.015s] Invoked command in '/home/lion/intellicar/ros2_ws/build/rviz_carla_plugin' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lion/intellicar/ros2_ws/src/ros-bridge/rviz_carla_plugin -DCMAKE_INSTALL_PREFIX=/home/lion/intellicar/ros2_ws/install/rviz_carla_plugin
+[12.017s] Invoking command in '/home/lion/intellicar/ros2_ws/build/rviz_carla_plugin': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lion/intellicar/ros2_ws/build/rviz_carla_plugin -- -j16 -l16
+[12.095s] [35m[1mScanning dependencies of target rviz_carla_plugin_autogen[0m
+[12.111s] [ 12%] [34m[1mAutomatic MOC for target rviz_carla_plugin[0m
+[12.462s] [ 12%] Built target rviz_carla_plugin_autogen
+[12.477s] [ 25%] [34m[1mGenerating qrc_rviz_carla_plugin.cpp[0m
+[12.496s] [35m[1mScanning dependencies of target rviz_carla_plugin[0m
+[12.642s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/rviz_carla_plugin_autogen/mocs_compilation.cpp.o[0m
+[17.997s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/qrc_rviz_carla_plugin.cpp.o[0m
+[18.060s] [ 62%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/src/carla_control_panel_ROS2.cpp.o[0m
+[42.495s] [ 75%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/src/indicator_widget.cpp.o[0m
+[43.961s] [ 87%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/src/drive_widget.cpp.o[0m
+[45.620s] [100%] [32m[1mLinking CXX shared library librviz_carla_plugin.so[0m
+[51.123s] [100%] Built target rviz_carla_plugin
+[51.147s] Invoked command in '/home/lion/intellicar/ros2_ws/build/rviz_carla_plugin' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lion/intellicar/ros2_ws/build/rviz_carla_plugin -- -j16 -l16
+[51.192s] Invoking command in '/home/lion/intellicar/ros2_ws/build/rviz_carla_plugin': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lion/intellicar/ros2_ws/build/rviz_carla_plugin
+[51.207s] -- Install configuration: ""
+[51.207s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/plugin_description_ros2.xml
+[51.207s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/library_path.sh
+[51.207s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/library_path.dsv
+[51.207s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/lib/librviz_carla_plugin.so
+[51.224s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/lib/librviz_carla_plugin.so" to ""
+[51.225s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/plugin_description_ros2.xml
+[51.225s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin
+[51.225s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/classes
+[51.225s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/classes/CarlaControl.png
+[51.225s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/step_once.png
+[51.226s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/pause.png
+[51.226s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/play.png
+[51.226s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/ament_index/resource_index/package_run_dependencies/rviz_carla_plugin
+[51.226s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/ament_index/resource_index/parent_prefix_path/rviz_carla_plugin
+[51.226s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/ament_prefix_path.sh
+[51.226s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/ament_prefix_path.dsv
+[51.226s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/path.sh
+[51.227s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/path.dsv
+[51.227s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.bash
+[51.227s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.sh
+[51.227s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.zsh
+[51.227s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.dsv
+[51.227s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/package.dsv
+[51.228s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/ament_index/resource_index/packages/rviz_carla_plugin
+[51.228s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_carla_plugin
+[51.228s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[51.228s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
+[51.228s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
+[51.229s] -- Installing: /home/lion/intellicar/ros2_ws/install/rviz_carla_plugin/share/rviz_carla_plugin/package.xml
+[51.234s] Invoked command in '/home/lion/intellicar/ros2_ws/build/rviz_carla_plugin' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/install/carla_ros_scenario_runner_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lion/intellicar/ros2_ws/build/rviz_carla_plugin

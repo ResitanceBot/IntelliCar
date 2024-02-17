@@ -1,0 +1,133 @@
+[3.154s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_ros_bridge': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_spawn_objects:/home/lion/intellicar/ros2_ws/install/carla_manual_control:/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_msgs:/home/lion/intellicar/ros2_ws/install/carla_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_ros_bridge/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_manual_control/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_ros_bridge build --build-base /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build install --record /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/install.log --single-version-externally-managed
+[3.500s] running egg_info
+[3.500s] creating ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info
+[3.500s] writing ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/PKG-INFO
+[3.501s] writing dependency_links to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/dependency_links.txt
+[3.501s] writing entry points to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/entry_points.txt
+[3.501s] writing requirements to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/requires.txt
+[3.501s] writing top-level names to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/top_level.txt
+[3.503s] writing manifest file '../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/SOURCES.txt'
+[3.544s] reading manifest file '../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/SOURCES.txt'
+[3.545s] writing manifest file '../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/SOURCES.txt'
+[3.545s] running build
+[3.545s] running build_py
+[3.546s] creating /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build
+[3.546s] creating /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib
+[3.546s] creating /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.546s] copying src/carla_ros_bridge/lane_invasion_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.546s] copying src/carla_ros_bridge/odom_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.546s] copying src/carla_ros_bridge/gnss.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.547s] copying src/carla_ros_bridge/sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.547s] copying src/carla_ros_bridge/actor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.547s] copying src/carla_ros_bridge/vehicle.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.547s] copying src/carla_ros_bridge/tf_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.547s] copying src/carla_ros_bridge/world_info.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.547s] copying src/carla_ros_bridge/camera.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.548s] copying src/carla_ros_bridge/lidar.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.548s] copying src/carla_ros_bridge/actor_factory.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.548s] copying src/carla_ros_bridge/spectator.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.548s] copying src/carla_ros_bridge/radar.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.548s] copying src/carla_ros_bridge/rss_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.549s] copying src/carla_ros_bridge/traffic.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.549s] copying src/carla_ros_bridge/__init__.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.549s] copying src/carla_ros_bridge/marker_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.549s] copying src/carla_ros_bridge/opendrive_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.549s] copying src/carla_ros_bridge/traffic_lights_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.549s] copying src/carla_ros_bridge/speedometer_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.549s] copying src/carla_ros_bridge/debug_helper.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.550s] copying src/carla_ros_bridge/walker.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.550s] copying src/carla_ros_bridge/traffic_participant.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.550s] copying src/carla_ros_bridge/carla_status_publisher.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.550s] copying src/carla_ros_bridge/pseudo_actor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.550s] copying src/carla_ros_bridge/actor_control.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.552s] copying src/carla_ros_bridge/collision_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.552s] copying src/carla_ros_bridge/ego_vehicle.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.552s] copying src/carla_ros_bridge/object_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.552s] copying src/carla_ros_bridge/bridge.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.552s] copying src/carla_ros_bridge/actor_list_sensor.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.552s] copying src/carla_ros_bridge/imu.py -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.552s] copying src/carla_ros_bridge/CARLA_VERSION -> /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[3.553s] running install
+[3.553s] running install_lib
+[3.555s] creating /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.555s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/lane_invasion_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.556s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/odom_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.556s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/gnss.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.557s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.557s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.558s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/CARLA_VERSION -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.558s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/vehicle.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.558s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/tf_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.558s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/world_info.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.558s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/camera.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.558s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/lidar.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.558s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor_factory.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.559s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/spectator.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.559s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/radar.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.560s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/rss_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.560s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/traffic.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.560s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/__init__.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/marker_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/opendrive_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/traffic_lights_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/speedometer_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/debug_helper.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/walker.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/traffic_participant.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/carla_status_publisher.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/pseudo_actor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor_control.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/collision_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/ego_vehicle.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/object_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/bridge.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor_list_sensor.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.561s] copying /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build/lib/carla_ros_bridge/imu.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge
+[3.562s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/lane_invasion_sensor.py to lane_invasion_sensor.cpython-38.pyc
+[3.564s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/odom_sensor.py to odom_sensor.cpython-38.pyc
+[3.565s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/gnss.py to gnss.cpython-38.pyc
+[3.565s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/sensor.py to sensor.cpython-38.pyc
+[3.572s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/actor.py to actor.cpython-38.pyc
+[3.574s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/vehicle.py to vehicle.cpython-38.pyc
+[3.574s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/tf_sensor.py to tf_sensor.cpython-38.pyc
+[3.574s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/world_info.py to world_info.cpython-38.pyc
+[3.575s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/camera.py to camera.cpython-38.pyc
+[3.575s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/lidar.py to lidar.cpython-38.pyc
+[3.575s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/actor_factory.py to actor_factory.cpython-38.pyc
+[3.579s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/spectator.py to spectator.cpython-38.pyc
+[3.579s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/radar.py to radar.cpython-38.pyc
+[3.580s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/rss_sensor.py to rss_sensor.cpython-38.pyc
+[3.580s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/traffic.py to traffic.cpython-38.pyc
+[3.580s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/__init__.py to __init__.cpython-38.pyc
+[3.580s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/marker_sensor.py to marker_sensor.cpython-38.pyc
+[3.583s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/opendrive_sensor.py to opendrive_sensor.cpython-38.pyc
+[3.583s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/traffic_lights_sensor.py to traffic_lights_sensor.cpython-38.pyc
+[3.584s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/speedometer_sensor.py to speedometer_sensor.cpython-38.pyc
+[3.584s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/debug_helper.py to debug_helper.cpython-38.pyc
+[3.585s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/walker.py to walker.cpython-38.pyc
+[3.587s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/traffic_participant.py to traffic_participant.cpython-38.pyc
+[3.587s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/carla_status_publisher.py to carla_status_publisher.cpython-38.pyc
+[3.587s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/pseudo_actor.py to pseudo_actor.cpython-38.pyc
+[3.588s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/actor_control.py to actor_control.cpython-38.pyc
+[3.589s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/collision_sensor.py to collision_sensor.cpython-38.pyc
+[3.589s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/ego_vehicle.py to ego_vehicle.cpython-38.pyc
+[3.592s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/object_sensor.py to object_sensor.cpython-38.pyc
+[3.592s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/bridge.py to bridge.cpython-38.pyc
+[3.597s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/actor_list_sensor.py to actor_list_sensor.cpython-38.pyc
+[3.598s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge/imu.py to imu.cpython-38.pyc
+[3.598s] running install_data
+[3.599s] creating /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/ament_index
+[3.599s] creating /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/ament_index/resource_index
+[3.599s] creating /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/ament_index/resource_index/packages
+[3.600s] copying resource/carla_ros_bridge -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/ament_index/resource_index/packages
+[3.600s] copying package.xml -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/carla_ros_bridge
+[3.600s] copying launch/carla_ros_bridge_with_example_ego_vehicle.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/carla_ros_bridge
+[3.601s] copying launch/carla_ros_bridge.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/carla_ros_bridge
+[3.601s] creating /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/carla_ros_bridge/test
+[3.601s] copying test/test_objects.json -> /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/share/carla_ros_bridge/test
+[3.601s] running install_egg_info
+[3.603s] Copying ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info to /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages/carla_ros_bridge-0.0.0-py3.8.egg-info
+[3.604s] running install_scripts
+[3.637s] Installing bridge script to /home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/carla_ros_bridge
+[3.638s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_ros_bridge/install.log'
+[3.713s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_ros_bridge' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_spawn_objects:/home/lion/intellicar/ros2_ws/install/carla_manual_control:/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_msgs:/home/lion/intellicar/ros2_ws/install/carla_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_ros_bridge/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_ros_bridge/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_manual_control/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_ros_bridge build --build-base /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/build install --record /home/lion/intellicar/ros2_ws/build/carla_ros_bridge/install.log --single-version-externally-managed

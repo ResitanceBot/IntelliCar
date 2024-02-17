@@ -1,0 +1,29 @@
+<launch>
+
+    <!-- Launcher parameters -->
+    <arg name='host' default='localhost'/>
+    <arg name='port' default='2000'/>
+    <arg name="town" default="Town01"/>
+    <arg name='timeout' default='200'/>
+    <arg name='vehicle_model' default=''/>
+
+    <!-- CARLA-ROS Bridge -->
+    <include file="$(find-pkg-share carla_ros_bridge)/carla_ros_bridge.launch.py">
+        <arg name='host' value='$(var host)'/>
+        <arg name='port' value='$(var port)'/>
+        <arg name='town' value='$(var town)'/>
+        <arg name='timeout' value='$(var timeout)'/>
+    </include>
+
+    <!-- Object Spawner -->
+    <include file="$(find-pkg-share carla_spawn_objects)/carla_example_ego_vehicle.launch.py">
+        <arg name="vehicle_model" value="$(var vehicle_model)"/>
+    </include>
+
+    <!-- Ackermann to Carla-Control msgs translator -->
+    <include file="$(find-pkg-share )/control_mando.launch.py"/>
+    <include find="carla_twist_to_control" launch="carla_twist_to_control.launch.py"/>
+    
+    
+
+</launch>

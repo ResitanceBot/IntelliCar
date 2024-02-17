@@ -1,0 +1,48 @@
+[9.576s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_spawn_objects': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_spawn_objects/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_spawn_objects build --build-base /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build install --record /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/install.log --single-version-externally-managed
+[10.005s] running egg_info
+[10.007s] creating ../../../build/carla_spawn_objects/carla_spawn_objects.egg-info
+[10.007s] writing ../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/PKG-INFO
+[10.008s] writing dependency_links to ../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/dependency_links.txt
+[10.008s] writing entry points to ../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/entry_points.txt
+[10.009s] writing requirements to ../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/requires.txt
+[10.009s] writing top-level names to ../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/top_level.txt
+[10.016s] writing manifest file '../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/SOURCES.txt'
+[10.099s] reading manifest file '../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/SOURCES.txt'
+[10.100s] writing manifest file '../../../build/carla_spawn_objects/carla_spawn_objects.egg-info/SOURCES.txt'
+[10.100s] running build
+[10.100s] running build_py
+[10.100s] creating /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build
+[10.100s] creating /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib
+[10.100s] creating /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src
+[10.100s] creating /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src/carla_spawn_objects
+[10.100s] copying src/carla_spawn_objects/__init__.py -> /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src/carla_spawn_objects
+[10.100s] copying src/carla_spawn_objects/set_initial_pose.py -> /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src/carla_spawn_objects
+[10.100s] copying src/carla_spawn_objects/carla_spawn_objects.py -> /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src/carla_spawn_objects
+[10.101s] running install
+[10.101s] running install_lib
+[10.103s] creating /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src
+[10.103s] creating /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src/carla_spawn_objects
+[10.103s] copying /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src/carla_spawn_objects/__init__.py -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src/carla_spawn_objects
+[10.103s] copying /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src/carla_spawn_objects/set_initial_pose.py -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src/carla_spawn_objects
+[10.103s] copying /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build/lib/src/carla_spawn_objects/carla_spawn_objects.py -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src/carla_spawn_objects
+[10.107s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src/carla_spawn_objects/__init__.py to __init__.cpython-38.pyc
+[10.108s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src/carla_spawn_objects/set_initial_pose.py to set_initial_pose.cpython-38.pyc
+[10.108s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/src/carla_spawn_objects/carla_spawn_objects.py to carla_spawn_objects.cpython-38.pyc
+[10.122s] running install_data
+[10.122s] creating /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/ament_index
+[10.122s] creating /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/ament_index/resource_index
+[10.122s] creating /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/ament_index/resource_index/packages
+[10.122s] copying resource/carla_spawn_objects -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/ament_index/resource_index/packages
+[10.123s] copying package.xml -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[10.123s] creating /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/carla_spawn_objects/config
+[10.123s] copying config/objects.json -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/carla_spawn_objects/config
+[10.123s] copying launch/set_initial_pose.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[10.123s] copying launch/carla_example_ego_vehicle.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[10.123s] copying launch/carla_spawn_objects.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/share/carla_spawn_objects
+[10.124s] running install_egg_info
+[10.124s] Copying ../../../build/carla_spawn_objects/carla_spawn_objects.egg-info to /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages/carla_spawn_objects-0.0.0-py3.8.egg-info
+[10.124s] running install_scripts
+[10.157s] Installing carla_spawn_objects script to /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/carla_spawn_objects
+[10.158s] Installing set_initial_pose script to /home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/carla_spawn_objects
+[10.158s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_spawn_objects/install.log'
+[10.793s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_spawn_objects' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_spawn_objects/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_spawn_objects/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_spawn_objects build --build-base /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/build install --record /home/lion/intellicar/ros2_ws/build/carla_spawn_objects/install.log --single-version-externally-managed

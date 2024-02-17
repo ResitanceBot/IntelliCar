@@ -1,5 +1,6 @@
 build/
 devel/
 .vscode/
-resources/
+CARLA_0.9.11/
+yolo_training/
 *.pyc

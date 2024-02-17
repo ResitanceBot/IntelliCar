@@ -1,0 +1,19 @@
+[8.055s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_common': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_common/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_common build --build-base /home/lion/intellicar/ros2_ws/build/carla_common/build install --record /home/lion/intellicar/ros2_ws/build/carla_common/install.log --single-version-externally-managed
+[8.409s] running egg_info
+[8.410s] writing ../../../build/carla_common/carla_common.egg-info/PKG-INFO
+[8.410s] writing dependency_links to ../../../build/carla_common/carla_common.egg-info/dependency_links.txt
+[8.411s] writing requirements to ../../../build/carla_common/carla_common.egg-info/requires.txt
+[8.411s] writing top-level names to ../../../build/carla_common/carla_common.egg-info/top_level.txt
+[8.464s] reading manifest file '../../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[8.465s] writing manifest file '../../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[8.465s] running build
+[8.466s] running build_py
+[8.468s] running install
+[8.468s] running install_lib
+[8.468s] running install_data
+[8.468s] running install_egg_info
+[8.472s] removing '/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages/carla_common-0.0.0-py3.8.egg-info' (and everything under it)
+[8.472s] Copying ../../../build/carla_common/carla_common.egg-info to /home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages/carla_common-0.0.0-py3.8.egg-info
+[8.473s] running install_scripts
+[8.506s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_common/install.log'
+[12.111s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_common' returned '0': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_common/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_common build --build-base /home/lion/intellicar/ros2_ws/build/carla_common/build install --record /home/lion/intellicar/ros2_ws/build/carla_common/install.log --single-version-externally-managed

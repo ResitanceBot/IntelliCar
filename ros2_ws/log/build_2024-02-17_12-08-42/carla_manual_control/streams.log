@@ -1,0 +1,21 @@
+[9.849s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_manual_control': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_manual_control/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_manual_control/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_manual_control build --build-base /home/lion/intellicar/ros2_ws/build/carla_manual_control/build install --record /home/lion/intellicar/ros2_ws/build/carla_manual_control/install.log --single-version-externally-managed
+[10.200s] running egg_info
+[10.201s] writing ../../../build/carla_manual_control/carla_manual_control.egg-info/PKG-INFO
+[10.201s] writing dependency_links to ../../../build/carla_manual_control/carla_manual_control.egg-info/dependency_links.txt
+[10.201s] writing entry points to ../../../build/carla_manual_control/carla_manual_control.egg-info/entry_points.txt
+[10.201s] writing requirements to ../../../build/carla_manual_control/carla_manual_control.egg-info/requires.txt
+[10.202s] writing top-level names to ../../../build/carla_manual_control/carla_manual_control.egg-info/top_level.txt
+[10.253s] reading manifest file '../../../build/carla_manual_control/carla_manual_control.egg-info/SOURCES.txt'
+[10.259s] writing manifest file '../../../build/carla_manual_control/carla_manual_control.egg-info/SOURCES.txt'
+[10.260s] running build
+[10.260s] running build_py
+[10.261s] running install
+[10.262s] running install_lib
+[10.264s] running install_data
+[10.267s] running install_egg_info
+[10.268s] removing '/home/lion/intellicar/ros2_ws/install/carla_manual_control/lib/python3.8/site-packages/carla_manual_control-0.0.0-py3.8.egg-info' (and everything under it)
+[10.269s] Copying ../../../build/carla_manual_control/carla_manual_control.egg-info to /home/lion/intellicar/ros2_ws/install/carla_manual_control/lib/python3.8/site-packages/carla_manual_control-0.0.0-py3.8.egg-info
+[10.269s] running install_scripts
+[10.294s] Installing carla_manual_control script to /home/lion/intellicar/ros2_ws/install/carla_manual_control/lib/carla_manual_control
+[10.294s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_manual_control/install.log'
+[11.675s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_manual_control' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_manual_control/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_manual_control/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_manual_control build --build-base /home/lion/intellicar/ros2_ws/build/carla_manual_control/build install --record /home/lion/intellicar/ros2_ws/build/carla_manual_control/install.log --single-version-externally-managed

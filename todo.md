@@ -5,3 +5,7 @@ Integración de modelo de detección con ROS:
 
 Actuación en base a decisión:
 +  Al detectar el bounding box a cierto tamaño, parar el vehículo
+
+-------------------------
+Things To Fix:
++ Lidar frame y ego_vehicle frame no cuadran a veces al ejecutar. Lidar frame sale sobre map frame. Podria compararse la posicion de los frames ego_vehicle y lidar y si no son muy parecidas es por fallo y en ese caso se haria transformada para llevar lidar frame a ego_vehicle. 

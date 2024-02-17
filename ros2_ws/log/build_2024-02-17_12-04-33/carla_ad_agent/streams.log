@@ -1,0 +1,52 @@
+[8.445s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_ad_agent': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types:/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_ad_agent/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_ad_agent build --build-base /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build install --record /home/lion/intellicar/ros2_ws/build/carla_ad_agent/install.log --single-version-externally-managed
+[8.907s] running egg_info
+[8.915s] creating ../../../build/carla_ad_agent/carla_ad_agent.egg-info
+[8.915s] writing ../../../build/carla_ad_agent/carla_ad_agent.egg-info/PKG-INFO
+[8.916s] writing dependency_links to ../../../build/carla_ad_agent/carla_ad_agent.egg-info/dependency_links.txt
+[8.919s] writing entry points to ../../../build/carla_ad_agent/carla_ad_agent.egg-info/entry_points.txt
+[8.920s] writing requirements to ../../../build/carla_ad_agent/carla_ad_agent.egg-info/requires.txt
+[8.920s] writing top-level names to ../../../build/carla_ad_agent/carla_ad_agent.egg-info/top_level.txt
+[8.921s] writing manifest file '../../../build/carla_ad_agent/carla_ad_agent.egg-info/SOURCES.txt'
+[8.975s] reading manifest file '../../../build/carla_ad_agent/carla_ad_agent.egg-info/SOURCES.txt'
+[8.976s] writing manifest file '../../../build/carla_ad_agent/carla_ad_agent.egg-info/SOURCES.txt'
+[8.976s] running build
+[8.976s] running build_py
+[8.977s] creating /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build
+[8.977s] creating /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib
+[8.977s] creating /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent
+[8.977s] copying src/carla_ad_agent/ad_agent.py -> /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent
+[8.978s] copying src/carla_ad_agent/agent.py -> /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent
+[8.978s] copying src/carla_ad_agent/__init__.py -> /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent
+[8.979s] copying src/carla_ad_agent/vehicle_pid_controller.py -> /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent
+[8.979s] copying src/carla_ad_agent/misc.py -> /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent
+[8.979s] copying src/carla_ad_agent/local_planner.py -> /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent
+[8.979s] running install
+[8.981s] running install_lib
+[8.983s] creating /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+[8.984s] copying /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent/ad_agent.py -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+[8.984s] copying /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent/agent.py -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+[8.984s] copying /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent/__init__.py -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+[8.984s] copying /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent/vehicle_pid_controller.py -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+[8.984s] copying /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent/misc.py -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+[8.984s] copying /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build/lib/carla_ad_agent/local_planner.py -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+[8.985s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/ad_agent.py to ad_agent.cpython-38.pyc
+[8.989s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/agent.py to agent.cpython-38.pyc
+[8.992s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/__init__.py to __init__.cpython-38.pyc
+[8.992s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/vehicle_pid_controller.py to vehicle_pid_controller.cpython-38.pyc
+[8.992s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/misc.py to misc.cpython-38.pyc
+[8.993s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/local_planner.py to local_planner.cpython-38.pyc
+[9.004s] running install_data
+[9.004s] creating /home/lion/intellicar/ros2_ws/install/carla_ad_agent/share/ament_index
+[9.004s] creating /home/lion/intellicar/ros2_ws/install/carla_ad_agent/share/ament_index/resource_index
+[9.004s] creating /home/lion/intellicar/ros2_ws/install/carla_ad_agent/share/ament_index/resource_index/packages
+[9.004s] copying resource/carla_ad_agent -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/share/ament_index/resource_index/packages
+[9.004s] copying package.xml -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/share/carla_ad_agent
+[9.004s] copying launch/carla_ad_agent.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_ad_agent/share/carla_ad_agent
+[9.004s] running install_egg_info
+[9.004s] Copying ../../../build/carla_ad_agent/carla_ad_agent.egg-info to /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent-0.0.0-py3.8.egg-info
+[9.005s] running install_scripts
+[9.043s] Installing ad_agent script to /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/carla_ad_agent
+[9.043s] Installing local_planner script to /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/carla_ad_agent
+[9.044s] Installing testing_waypoints script to /home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/carla_ad_agent
+[9.044s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_ad_agent/install.log'
+[10.588s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_ad_agent' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types:/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types:/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_ad_agent/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_ad_agent/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_ad_agent build --build-base /home/lion/intellicar/ros2_ws/build/carla_ad_agent/build install --record /home/lion/intellicar/ros2_ws/build/carla_ad_agent/install.log --single-version-externally-managed

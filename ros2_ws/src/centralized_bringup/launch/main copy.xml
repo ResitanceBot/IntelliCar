@@ -1,0 +1,33 @@
+<launch>
+
+    <!-- Launcher parameters -->
+    <arg name='host' default='localhost'/>
+    <arg name='port' default='2000'/>
+    <arg name="town" default="Town01"/>
+    <arg name='timeout' default='200'/>
+    <arg name='vehicle_model' default=''/>
+    
+    <!-- CARLA-ROS Bridge -->
+    <include find="carla_ros_bridge" launch="carla_ros_bridge.launch.py">
+        <arg name='host' value='$(var host)'/>
+        <arg name='port' value='$(var port)'/>
+        <arg name='town' value='$(var town)'/>
+        <arg name='timeout' value='$(var timeout)'/>
+    </include>
+
+    <!-- Object Spawner -->
+    <include find="carla_spawn_objects" launch="carla_example_ego_vehicle.launch.py">
+        <arg name="vehicle_model" value="$(arg vehicle_model)"/>
+    </include>
+
+    <!-- Ackermann to Carla-Control msgs translator -->
+    <include find="gamepad_control" launch="control_mando.launch.py"/>
+    <include find="carla_twist_to_control" launch="carla_twist_to_control.launch.py"/>
+
+    <!-- Yolo Processing -->
+    <node name="yolo_detection" pkg="yolo_detection" type="prediction_yolov8.py" output="screen"/>
+
+    <!-- Rviz Visualizer Load -->
+    <node name="rviz" pkg="rviz2" executable="rviz2" output="screen" args="-d $(find rviz_carla_plugin)/config/default.rviz" />
+
+</launch>

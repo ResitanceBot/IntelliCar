@@ -1,0 +1,21 @@
+qué nos importa más, P o R?
+una mayor precisión nos permite evitar falsos positivos, i.e, detectar objetos en el fondo
+un mayor recall nos permite evitar que, por ejemplo, un semaforo o una señal sea desapercibida
+
+en nuestro caso, ambas cosas pueden entenderse como igual de graves:
+-P baja, provocará frenazos
+-R baja, provocará accidentes al saltarte el semáforo o ir como loco
+
+Por tanto, nos interesa el parámetro de F1.
+F1 depende de beta, por tanto, si beta = 0, toda la importancia se la damos a la precisión,
+en cambio, si beta = 0.5, la mayor importancia es acogida por el recall. Para conseguir un comportamiento balanceado, se usa beta=1
+
+Es por ello, que si queremos ver que confianza es mejor usar para nuestro caso, la gráffica f1-confidence es valiosa.
+Revisar que la leyenda ya te indica el punto donde f1 es máximo
+
+AP indica el area que queda bajo la curva de precission-recall, y mAP hace la media para todas las clases.
+De esta manera mAP 0.5, indica una evaluación genérica del modelo para 0.5 de confianza
+
+mAP 0.5-0.95 indica la robustez que se tiene en este intervalo de confianza
+
+

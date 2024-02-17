@@ -1,0 +1,38 @@
+[6.417s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_walker_agent': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_walker_agent/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_walker_agent build --build-base /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build install --record /home/lion/intellicar/ros2_ws/build/carla_walker_agent/install.log --single-version-externally-managed
+[6.825s] running egg_info
+[6.826s] creating ../../../build/carla_walker_agent/carla_walker_agent.egg-info
+[6.826s] writing ../../../build/carla_walker_agent/carla_walker_agent.egg-info/PKG-INFO
+[6.827s] writing dependency_links to ../../../build/carla_walker_agent/carla_walker_agent.egg-info/dependency_links.txt
+[6.827s] writing entry points to ../../../build/carla_walker_agent/carla_walker_agent.egg-info/entry_points.txt
+[6.827s] writing requirements to ../../../build/carla_walker_agent/carla_walker_agent.egg-info/requires.txt
+[6.827s] writing top-level names to ../../../build/carla_walker_agent/carla_walker_agent.egg-info/top_level.txt
+[6.831s] writing manifest file '../../../build/carla_walker_agent/carla_walker_agent.egg-info/SOURCES.txt'
+[6.894s] reading manifest file '../../../build/carla_walker_agent/carla_walker_agent.egg-info/SOURCES.txt'
+[6.896s] writing manifest file '../../../build/carla_walker_agent/carla_walker_agent.egg-info/SOURCES.txt'
+[6.897s] running build
+[6.897s] running build_py
+[6.898s] creating /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build
+[6.898s] creating /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build/lib
+[6.899s] creating /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build/lib/carla_walker_agent
+[6.899s] copying src/carla_walker_agent/__init__.py -> /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build/lib/carla_walker_agent
+[6.900s] copying src/carla_walker_agent/carla_walker_agent.py -> /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build/lib/carla_walker_agent
+[6.901s] running install
+[6.903s] running install_lib
+[6.906s] creating /home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages/carla_walker_agent
+[6.906s] copying /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build/lib/carla_walker_agent/__init__.py -> /home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages/carla_walker_agent
+[6.907s] copying /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build/lib/carla_walker_agent/carla_walker_agent.py -> /home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages/carla_walker_agent
+[6.908s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages/carla_walker_agent/__init__.py to __init__.cpython-38.pyc
+[6.910s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages/carla_walker_agent/carla_walker_agent.py to carla_walker_agent.cpython-38.pyc
+[6.911s] running install_data
+[6.913s] creating /home/lion/intellicar/ros2_ws/install/carla_walker_agent/share/ament_index
+[6.913s] creating /home/lion/intellicar/ros2_ws/install/carla_walker_agent/share/ament_index/resource_index
+[6.913s] creating /home/lion/intellicar/ros2_ws/install/carla_walker_agent/share/ament_index/resource_index/packages
+[6.913s] copying resource/carla_walker_agent -> /home/lion/intellicar/ros2_ws/install/carla_walker_agent/share/ament_index/resource_index/packages
+[6.913s] copying package.xml -> /home/lion/intellicar/ros2_ws/install/carla_walker_agent/share/carla_walker_agent
+[6.913s] copying launch/carla_walker_agent.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_walker_agent/share/carla_walker_agent
+[6.914s] running install_egg_info
+[6.916s] Copying ../../../build/carla_walker_agent/carla_walker_agent.egg-info to /home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages/carla_walker_agent-0.0.0-py3.8.egg-info
+[6.918s] running install_scripts
+[6.950s] Installing carla_walker_agent script to /home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/carla_walker_agent
+[6.950s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_walker_agent/install.log'
+[7.036s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_walker_agent' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_walker_agent/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_walker_agent/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_walker_agent build --build-base /home/lion/intellicar/ros2_ws/build/carla_walker_agent/build install --record /home/lion/intellicar/ros2_ws/build/carla_walker_agent/install.log --single-version-externally-managed

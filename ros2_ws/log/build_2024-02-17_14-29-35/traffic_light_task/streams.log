@@ -1,0 +1,25 @@
+[11.184s] Invoking command in '/home/lion/intellicar/ros2_ws/src/traffic_light_task': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/traffic_light_task/prefix_override:/home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traffic_light_task build --build-base /home/lion/intellicar/ros2_ws/build/traffic_light_task/build install --record /home/lion/intellicar/ros2_ws/build/traffic_light_task/install.log --install-scripts $base/lib/traffic_light_task --single-version-externally-managed
+[11.658s] running egg_info
+[11.660s] writing ../../build/traffic_light_task/traffic_light_task.egg-info/PKG-INFO
+[11.660s] writing dependency_links to ../../build/traffic_light_task/traffic_light_task.egg-info/dependency_links.txt
+[11.662s] writing entry points to ../../build/traffic_light_task/traffic_light_task.egg-info/entry_points.txt
+[11.663s] writing requirements to ../../build/traffic_light_task/traffic_light_task.egg-info/requires.txt
+[11.663s] writing top-level names to ../../build/traffic_light_task/traffic_light_task.egg-info/top_level.txt
+[11.723s] reading manifest file '../../build/traffic_light_task/traffic_light_task.egg-info/SOURCES.txt'
+[11.725s] writing manifest file '../../build/traffic_light_task/traffic_light_task.egg-info/SOURCES.txt'
+[11.725s] running build
+[11.725s] running build_py
+[11.725s] copying traffic_light_task/color_segmentator.py -> /home/lion/intellicar/ros2_ws/build/traffic_light_task/build/lib/traffic_light_task
+[11.726s] running install
+[11.729s] running install_lib
+[11.730s] copying /home/lion/intellicar/ros2_ws/build/traffic_light_task/build/lib/traffic_light_task/color_segmentator.py -> /home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/python3.8/site-packages/traffic_light_task
+[11.731s] byte-compiling /home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/python3.8/site-packages/traffic_light_task/color_segmentator.py to color_segmentator.cpython-38.pyc
+[11.735s] running install_data
+[11.736s] running install_egg_info
+[11.739s] removing '/home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/python3.8/site-packages/traffic_light_task-0.0.0-py3.8.egg-info' (and everything under it)
+[11.740s] Copying ../../build/traffic_light_task/traffic_light_task.egg-info to /home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/python3.8/site-packages/traffic_light_task-0.0.0-py3.8.egg-info
+[11.741s] running install_scripts
+[11.779s] Installing color_segmentator_node script to /home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/traffic_light_task
+[11.779s] Installing distance_estimator_node script to /home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/traffic_light_task
+[11.780s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/traffic_light_task/install.log'
+[17.677s] Invoked command in '/home/lion/intellicar/ros2_ws/src/traffic_light_task' returned '0': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/traffic_light_task/prefix_override:/home/lion/intellicar/ros2_ws/install/traffic_light_task/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traffic_light_task build --build-base /home/lion/intellicar/ros2_ws/build/traffic_light_task/build install --record /home/lion/intellicar/ros2_ws/build/traffic_light_task/install.log --install-scripts $base/lib/traffic_light_task --single-version-externally-managed

@@ -1,0 +1,19 @@
+[8.667s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/ros_compatibility': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/ros_compatibility/prefix_override:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros_compatibility build --build-base /home/lion/intellicar/ros2_ws/build/ros_compatibility/build install --record /home/lion/intellicar/ros2_ws/build/ros_compatibility/install.log --single-version-externally-managed
+[8.998s] running egg_info
+[8.999s] writing ../../../build/ros_compatibility/ros_compatibility.egg-info/PKG-INFO
+[8.999s] writing dependency_links to ../../../build/ros_compatibility/ros_compatibility.egg-info/dependency_links.txt
+[9.000s] writing requirements to ../../../build/ros_compatibility/ros_compatibility.egg-info/requires.txt
+[9.000s] writing top-level names to ../../../build/ros_compatibility/ros_compatibility.egg-info/top_level.txt
+[9.052s] reading manifest file '../../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[9.054s] writing manifest file '../../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[9.054s] running build
+[9.054s] running build_py
+[9.054s] running install
+[9.055s] running install_lib
+[9.057s] running install_data
+[9.059s] running install_egg_info
+[9.062s] removing '/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility-0.0.0-py3.8.egg-info' (and everything under it)
+[9.062s] Copying ../../../build/ros_compatibility/ros_compatibility.egg-info to /home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility-0.0.0-py3.8.egg-info
+[9.063s] running install_scripts
+[9.088s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/ros_compatibility/install.log'
+[11.623s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/ros_compatibility' returned '0': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/ros_compatibility/prefix_override:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros_compatibility build --build-base /home/lion/intellicar/ros2_ws/build/ros_compatibility/build install --record /home/lion/intellicar/ros2_ws/build/ros_compatibility/install.log --single-version-externally-managed

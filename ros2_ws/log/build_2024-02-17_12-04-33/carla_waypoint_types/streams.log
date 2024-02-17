@@ -1,0 +1,297 @@
+[3.458s] Invoking command in '/home/lion/intellicar/ros2_ws/build/carla_waypoint_types': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lion/intellicar/ros2_ws/src/ros-bridge/carla_waypoint_types -DCMAKE_INSTALL_PREFIX=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types
+[5.424s] -- The C compiler identification is GNU 9.4.0
+[5.424s] -- The CXX compiler identification is GNU 9.4.0
+[5.424s] -- Check for working C compiler: /usr/bin/cc
+[5.424s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.424s] -- Detecting C compiler ABI info
+[5.424s] -- Detecting C compiler ABI info - done
+[5.424s] -- Detecting C compile features
+[5.425s] -- Detecting C compile features - done
+[5.425s] -- Check for working CXX compiler: /usr/bin/c++
+[5.425s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.425s] -- Detecting CXX compiler ABI info
+[5.432s] -- Detecting CXX compiler ABI info - done
+[5.433s] -- Detecting CXX compile features
+[5.433s] -- Detecting CXX compile features - done
+[5.433s] -- Found ros_environment: 2.5.1 (/opt/ros/foxy/share/ros_environment/cmake)
+[5.433s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.433s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.433s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.433s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.433s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.434s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.434s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.434s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.434s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.460s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[5.462s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[5.466s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[5.468s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.296s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.298s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.354s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.355s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.355s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.355s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.382s] -- Found PythonExtra: .so  
+[6.543s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[6.545s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[6.553s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.581s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.583s] -- Added test 'lint_cmake' to check CMake code style
+[6.584s] -- Added test 'xmllint' to check XML markup files
+[6.595s] -- Configuring done
+[6.709s] -- Generating done
+[6.715s] -- Build files have been written to: /home/lion/intellicar/ros2_ws/build/carla_waypoint_types
+[6.752s] Invoked command in '/home/lion/intellicar/ros2_ws/build/carla_waypoint_types' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lion/intellicar/ros2_ws/src/ros-bridge/carla_waypoint_types -DCMAKE_INSTALL_PREFIX=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types
+[6.754s] Invoking command in '/home/lion/intellicar/ros2_ws/build/carla_waypoint_types': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lion/intellicar/ros2_ws/build/carla_waypoint_types -- -j16 -l16
+[6.876s] [35m[1mScanning dependencies of target carla_waypoint_types__cpp[0m
+[6.879s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.915s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.655s] [  4%] Built target carla_waypoint_types__cpp
+[7.688s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.718s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.729s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.796s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_generator_c[0m
+[7.837s] [ 12%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_c.dir/rosidl_generator_c/carla_waypoint_types/srv/detail/get_waypoint__functions.c.o[0m
+[7.846s] [ 17%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_c.dir/rosidl_generator_c/carla_waypoint_types/msg/detail/carla_waypoint__functions.c.o[0m
+[7.847s] [ 17%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_generator_c.dir/rosidl_generator_c/carla_waypoint_types/srv/detail/get_actor_waypoint__functions.c.o[0m
+[7.974s] [ 19%] [32m[1mLinking C shared library libcarla_waypoint_types__rosidl_generator_c.so[0m
+[8.053s] [ 19%] Built target carla_waypoint_types__rosidl_generator_c
+[8.075s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.102s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.556s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_cpp[0m
+[8.561s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_introspection_cpp[0m
+[8.631s] [ 25%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_waypoint_types/msg/carla_waypoint__type_support.cpp.o[0m
+[8.641s] [ 27%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_waypoint_types/srv/get_waypoint__type_support.cpp.o[0m
+[8.659s] [ 29%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_waypoint_types/msg/detail/carla_waypoint__type_support.cpp.o[0m
+[8.684s] [ 31%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_waypoint_types/srv/get_actor_waypoint__type_support.cpp.o[0m
+[8.691s] [ 34%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.cpp.o[0m
+[8.702s] [ 36%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_waypoint_types/srv/detail/get_waypoint__type_support.cpp.o[0m
+[8.777s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_fastrtps_cpp[0m
+[8.843s] [ 38%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_waypoint_types/msg/detail/dds_fastrtps/carla_waypoint__type_support.cpp.o[0m
+[8.843s] [ 40%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_waypoint_types/srv/detail/dds_fastrtps/get_waypoint__type_support.cpp.o[0m
+[8.885s] [ 42%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_waypoint_types/srv/detail/dds_fastrtps/get_actor_waypoint__type_support.cpp.o[0m
+[9.153s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_c[0m
+[9.288s] [ 44%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_waypoint_types/msg/carla_waypoint__type_support.cpp.o[0m
+[9.289s] [ 46%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_waypoint_types/srv/get_waypoint__type_support.cpp.o[0m
+[9.305s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_introspection_c[0m
+[9.338s] [ 48%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_waypoint_types/srv/get_actor_waypoint__type_support.cpp.o[0m
+[9.462s] [ 51%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_waypoint_types/srv/detail/get_waypoint__type_support.c.o[0m
+[9.463s] [ 53%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_waypoint_types/msg/detail/carla_waypoint__type_support.c.o[0m
+[9.463s] [ 55%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.c.o[0m
+[9.604s] [ 57%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_c.so[0m
+[9.637s] [ 59%] [32m[1mLinking C shared library libcarla_waypoint_types__rosidl_typesupport_introspection_c.so[0m
+[9.836s] [ 59%] Built target carla_waypoint_types__rosidl_typesupport_introspection_c
+[9.842s] [ 59%] Built target carla_waypoint_types__rosidl_typesupport_c
+[10.666s] [ 61%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_cpp.so[0m
+[10.666s] [ 63%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_introspection_cpp.so[0m
+[10.893s] [ 63%] Built target carla_waypoint_types__rosidl_typesupport_cpp
+[10.960s] [ 63%] Built target carla_waypoint_types__rosidl_typesupport_introspection_cpp
+[11.075s] [ 65%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.347s] [ 65%] Built target carla_waypoint_types__rosidl_typesupport_fastrtps_cpp
+[11.377s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.058s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_fastrtps_c[0m
+[12.141s] [ 70%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_waypoint_types/msg/detail/carla_waypoint__type_support_c.cpp.o[0m
+[12.149s] [ 72%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_waypoint_types/srv/detail/get_waypoint__type_support_c.cpp.o[0m
+[12.169s] [ 74%] [32mBuilding CXX object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support_c.cpp.o[0m
+[13.067s] [ 76%] [32m[1mLinking CXX shared library libcarla_waypoint_types__rosidl_typesupport_fastrtps_c.so[0m
+[13.421s] [ 76%] Built target carla_waypoint_types__rosidl_typesupport_fastrtps_c
+[13.477s] [35m[1mScanning dependencies of target carla_waypoint_types[0m
+[13.505s] [ 76%] Built target carla_waypoint_types
+[13.534s] [35m[1mScanning dependencies of target carla_waypoint_types__py[0m
+[13.598s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.548s] [ 78%] Built target carla_waypoint_types__py
+[15.613s] [35m[1mScanning dependencies of target carla_waypoint_types__python[0m
+[15.681s] [ 80%] [32mBuilding C object CMakeFiles/carla_waypoint_types__python.dir/rosidl_generator_py/carla_waypoint_types/msg/_carla_waypoint_s.c.o[0m
+[15.715s] [ 82%] [32mBuilding C object CMakeFiles/carla_waypoint_types__python.dir/rosidl_generator_py/carla_waypoint_types/srv/_get_waypoint_s.c.o[0m
+[15.715s] [ 85%] [32mBuilding C object CMakeFiles/carla_waypoint_types__python.dir/rosidl_generator_py/carla_waypoint_types/srv/_get_actor_waypoint_s.c.o[0m
+[16.082s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/carla_waypoint_types/libcarla_waypoint_types__python.so[0m
+[16.303s] [ 87%] Built target carla_waypoint_types__python
+[16.374s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_c__pyext[0m
+[16.469s] [ 89%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_c.c.o[0m
+[16.676s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.766s] [ 91%] Built target carla_waypoint_types__rosidl_typesupport_c__pyext
+[16.778s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.811s] [ 93%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.992s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.140s] [ 95%] Built target carla_waypoint_types__rosidl_typesupport_fastrtps_c__pyext
+[17.164s] [35m[1mScanning dependencies of target carla_waypoint_types__rosidl_typesupport_introspection_c__pyext[0m
+[17.193s] [ 97%] [32mBuilding C object CMakeFiles/carla_waypoint_types__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/carla_waypoint_types/_carla_waypoint_types_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.338s] [100%] [32m[1mLinking C shared library rosidl_generator_py/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.425s] [100%] Built target carla_waypoint_types__rosidl_typesupport_introspection_c__pyext
+[17.447s] Invoked command in '/home/lion/intellicar/ros2_ws/build/carla_waypoint_types' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lion/intellicar/ros2_ws/build/carla_waypoint_types -- -j16 -l16
+[17.568s] Invoking command in '/home/lion/intellicar/ros2_ws/build/carla_waypoint_types': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lion/intellicar/ros2_ws/build/carla_waypoint_types
+[17.586s] -- Install configuration: ""
+[17.586s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/ament_index/resource_index/rosidl_interfaces/carla_waypoint_types
+[17.586s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types
+[17.586s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg
+[17.586s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail
+[17.586s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__struct.h
+[17.587s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__type_support.h
+[17.587s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__functions.h
+[17.587s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__functions.c
+[17.587s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/carla_waypoint.h
+[17.587s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/rosidl_generator_c__visibility_control.h
+[17.587s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv
+[17.587s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__struct.h
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__functions.h
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__functions.h
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__struct.h
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__type_support.h
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__functions.c
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__functions.c
+[17.588s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.h
+[17.589s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/get_actor_waypoint.h
+[17.589s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/get_waypoint.h
+[17.589s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/library_path.sh
+[17.589s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/library_path.dsv
+[17.590s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_generator_c.so
+[17.591s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_generator_c.so" to ""
+[17.592s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types
+[17.592s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg
+[17.592s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail
+[17.592s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_fastrtps_c.h
+[17.592s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.592s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv
+[17.592s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail
+[17.593s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_c.h
+[17.593s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_fastrtps_c.h
+[17.593s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_c.so
+[17.596s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_c.so" to ""
+[17.596s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types
+[17.596s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg
+[17.597s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail
+[17.597s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[17.598s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/dds_fastrtps
+[17.598s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.598s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv
+[17.598s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail
+[17.598s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[17.599s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/dds_fastrtps
+[17.599s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[17.600s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_cpp.so
+[17.607s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.607s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types
+[17.607s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg
+[17.607s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail
+[17.607s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_introspection_c.h
+[17.607s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__type_support.c
+[17.607s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.607s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv
+[17.608s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail
+[17.608s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_introspection_c.h
+[17.609s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__type_support.c
+[17.609s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.c
+[17.609s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_introspection_c.h
+[17.609s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_c.so
+[17.610s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_c.so" to ""
+[17.610s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_c.so
+[17.610s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_c.so" to ""
+[17.610s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types
+[17.610s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg
+[17.610s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.611s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail
+[17.611s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__struct.hpp
+[17.612s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__type_support.hpp
+[17.612s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__traits.hpp
+[17.612s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__builder.hpp
+[17.612s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/carla_waypoint.hpp
+[17.612s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv
+[17.612s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail
+[17.613s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__traits.hpp
+[17.613s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__type_support.hpp
+[17.615s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__traits.hpp
+[17.615s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__builder.hpp
+[17.615s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__struct.hpp
+[17.615s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__builder.hpp
+[17.615s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.hpp
+[17.615s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__struct.hpp
+[17.615s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/get_waypoint.hpp
+[17.616s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/get_actor_waypoint.hpp
+[17.616s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types
+[17.616s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg
+[17.616s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail
+[17.618s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__type_support.cpp
+[17.618s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/msg/detail/carla_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[17.618s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv
+[17.619s] -- Up-to-date: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail
+[17.619s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[17.619s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_waypoint__type_support.cpp
+[17.619s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[17.619s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/include/carla_waypoint_types/srv/detail/get_actor_waypoint__type_support.cpp
+[17.619s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_cpp.so
+[17.620s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_introspection_cpp.so" to ""
+[17.620s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_cpp.so
+[17.620s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__rosidl_typesupport_cpp.so" to ""
+[17.620s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/pythonpath.sh
+[17.620s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/pythonpath.dsv
+[17.620s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/__init__.py
+[17.684s] Compiling '/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/__init__.py'...
+[17.697s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/msg
+[17.697s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/msg/__init__.py
+[17.697s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/msg/_carla_waypoint_s.c
+[17.697s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/msg/_carla_waypoint.py
+[17.697s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/srv
+[17.698s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/srv/_get_actor_waypoint.py
+[17.698s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/srv/_get_waypoint.py
+[17.701s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/srv/__init__.py
+[17.701s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/srv/_get_waypoint_s.c
+[17.701s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/srv/_get_actor_waypoint_s.c
+[17.701s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[17.702s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.703s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[17.704s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.704s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[17.704s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages/carla_waypoint_types/carla_waypoint_types_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.704s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__python.so
+[17.722s] -- Set runtime path of "/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/libcarla_waypoint_types__python.so" to ""
+[17.722s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/msg/CarlaWaypoint.idl
+[17.723s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint.idl
+[17.723s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint.idl
+[17.723s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/msg/CarlaWaypoint.msg
+[17.725s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint.srv
+[17.725s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint_Request.msg
+[17.727s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetWaypoint_Response.msg
+[17.727s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint.srv
+[17.728s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint_Request.msg
+[17.728s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/srv/GetActorWaypoint_Response.msg
+[17.728s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/ament_index/resource_index/package_run_dependencies/carla_waypoint_types
+[17.728s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/ament_index/resource_index/parent_prefix_path/carla_waypoint_types
+[17.729s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/ament_prefix_path.sh
+[17.729s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/ament_prefix_path.dsv
+[17.729s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/path.sh
+[17.729s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/environment/path.dsv
+[17.730s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.bash
+[17.730s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.sh
+[17.730s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.zsh
+[17.730s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/local_setup.dsv
+[17.731s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/package.dsv
+[17.731s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/ament_index/resource_index/packages/carla_waypoint_types
+[17.731s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_generator_cExport.cmake
+[17.732s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_generator_cExport-noconfig.cmake
+[17.732s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cExport.cmake
+[17.734s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.734s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cExport.cmake
+[17.736s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cExport-noconfig.cmake
+[17.736s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_generator_cppExport.cmake
+[17.736s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cppExport.cmake
+[17.737s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.737s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cppExport.cmake
+[17.737s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types__rosidl_typesupport_cppExport-noconfig.cmake
+[17.737s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/rosidl_cmake-extras.cmake
+[17.737s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.737s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_libraries-extras.cmake
+[17.737s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_targets-extras.cmake
+[17.738s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.740s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.740s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.741s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig.cmake
+[17.741s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig-version.cmake
+[17.741s] -- Installing: /home/lion/intellicar/ros2_ws/install/carla_waypoint_types/share/carla_waypoint_types/package.xml
+[18.635s] Invoked command in '/home/lion/intellicar/ros2_ws/build/carla_waypoint_types' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lion/intellicar/ros2_ws/build/carla_waypoint_types

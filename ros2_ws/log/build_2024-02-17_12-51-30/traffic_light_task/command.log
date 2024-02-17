@@ -1,0 +1,2 @@
+Invoking command in '/home/lion/intellicar/ros2_ws/build/traffic_light_task': /usr/bin/cmake /home/lion/intellicar/ros2_ws/src/traffic_light_task -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lion/intellicar/ros2_ws/install/traffic_light_task
+Invoked command in '/home/lion/intellicar/ros2_ws/build/traffic_light_task' returned '1': /usr/bin/cmake /home/lion/intellicar/ros2_ws/src/traffic_light_task -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lion/intellicar/ros2_ws/install/traffic_light_task

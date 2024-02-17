@@ -1,0 +1,38 @@
+[2.483s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_waypoint_publisher': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_waypoint_publisher build --build-base /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build install --record /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/install.log --single-version-externally-managed
+[2.796s] running egg_info
+[2.797s] creating ../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info
+[2.797s] writing ../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/PKG-INFO
+[2.798s] writing dependency_links to ../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/dependency_links.txt
+[2.798s] writing entry points to ../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/entry_points.txt
+[2.798s] writing requirements to ../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/requires.txt
+[2.798s] writing top-level names to ../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/top_level.txt
+[2.800s] writing manifest file '../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/SOURCES.txt'
+[2.850s] reading manifest file '../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/SOURCES.txt'
+[2.852s] writing manifest file '../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info/SOURCES.txt'
+[2.852s] running build
+[2.852s] running build_py
+[2.852s] creating /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build
+[2.852s] creating /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build/lib
+[2.852s] creating /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build/lib/carla_waypoint_publisher
+[2.852s] copying src/carla_waypoint_publisher/carla_waypoint_publisher.py -> /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build/lib/carla_waypoint_publisher
+[2.853s] copying src/carla_waypoint_publisher/__init__.py -> /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build/lib/carla_waypoint_publisher
+[2.853s] running install
+[2.854s] running install_lib
+[2.856s] creating /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages/carla_waypoint_publisher
+[2.856s] copying /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build/lib/carla_waypoint_publisher/carla_waypoint_publisher.py -> /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages/carla_waypoint_publisher
+[2.856s] copying /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build/lib/carla_waypoint_publisher/__init__.py -> /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages/carla_waypoint_publisher
+[2.857s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages/carla_waypoint_publisher/carla_waypoint_publisher.py to carla_waypoint_publisher.cpython-38.pyc
+[2.862s] byte-compiling /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages/carla_waypoint_publisher/__init__.py to __init__.cpython-38.pyc
+[2.862s] running install_data
+[2.864s] creating /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/share/ament_index
+[2.864s] creating /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/share/ament_index/resource_index
+[2.864s] creating /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/share/ament_index/resource_index/packages
+[2.864s] copying resource/carla_waypoint_publisher -> /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/share/ament_index/resource_index/packages
+[2.864s] copying package.xml -> /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/share/carla_waypoint_publisher
+[2.864s] copying launch/carla_waypoint_publisher.launch.py -> /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/share/carla_waypoint_publisher
+[2.865s] running install_egg_info
+[2.866s] Copying ../../../build/carla_waypoint_publisher/carla_waypoint_publisher.egg-info to /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages/carla_waypoint_publisher-0.0.0-py3.8.egg-info
+[2.868s] running install_scripts
+[2.900s] Installing carla_waypoint_publisher script to /home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/carla_waypoint_publisher
+[2.900s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/install.log'
+[2.984s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_waypoint_publisher' returned '0': AMENT_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/ros_compatibility:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types LD_LIBRARY_PATH=/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_waypoint_publisher/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/ros_compatibility/lib/python3.8/site-packages:/home/lion/intellicar/ros2_ws/install/carla_waypoint_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_waypoint_publisher build --build-base /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/build install --record /home/lion/intellicar/ros2_ws/build/carla_waypoint_publisher/install.log --single-version-externally-managed

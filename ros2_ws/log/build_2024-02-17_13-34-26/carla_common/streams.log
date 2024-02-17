@@ -1,0 +1,19 @@
+[16.394s] Invoking command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_common': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_common/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_common build --build-base /home/lion/intellicar/ros2_ws/build/carla_common/build install --record /home/lion/intellicar/ros2_ws/build/carla_common/install.log --single-version-externally-managed
+[17.199s] running egg_info
+[17.199s] writing ../../../build/carla_common/carla_common.egg-info/PKG-INFO
+[17.199s] writing dependency_links to ../../../build/carla_common/carla_common.egg-info/dependency_links.txt
+[17.199s] writing requirements to ../../../build/carla_common/carla_common.egg-info/requires.txt
+[17.199s] writing top-level names to ../../../build/carla_common/carla_common.egg-info/top_level.txt
+[17.199s] reading manifest file '../../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[17.199s] writing manifest file '../../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[17.199s] running build
+[17.199s] running build_py
+[17.200s] running install
+[17.200s] running install_lib
+[17.200s] running install_data
+[17.200s] running install_egg_info
+[17.200s] removing '/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages/carla_common-0.0.0-py3.8.egg-info' (and everything under it)
+[17.200s] Copying ../../../build/carla_common/carla_common.egg-info to /home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages/carla_common-0.0.0-py3.8.egg-info
+[17.200s] running install_scripts
+[17.200s] writing list of installed files to '/home/lion/intellicar/ros2_ws/build/carla_common/install.log'
+[19.409s] Invoked command in '/home/lion/intellicar/ros2_ws/src/ros-bridge/carla_common' returned '0': PYTHONPATH=/home/lion/intellicar/ros2_ws/build/carla_common/prefix_override:/home/lion/intellicar/ros2_ws/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/carla_common build --build-base /home/lion/intellicar/ros2_ws/build/carla_common/build install --record /home/lion/intellicar/ros2_ws/build/carla_common/install.log --single-version-externally-managed
