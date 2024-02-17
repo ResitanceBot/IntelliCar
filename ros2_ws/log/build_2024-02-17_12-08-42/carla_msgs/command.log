@@ -1,4 +1,0 @@
-Invoking command in '/home/lion/intellicar/ros2_ws/build/carla_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lion/intellicar/ros2_ws/build/carla_msgs -- -j16 -l16
-Invoked command in '/home/lion/intellicar/ros2_ws/build/carla_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lion/intellicar/ros2_ws/build/carla_msgs -- -j16 -l16
-Invoking command in '/home/lion/intellicar/ros2_ws/build/carla_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lion/intellicar/ros2_ws/build/carla_msgs
-Invoked command in '/home/lion/intellicar/ros2_ws/build/carla_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lion/intellicar/ros2_ws/build/carla_msgs
