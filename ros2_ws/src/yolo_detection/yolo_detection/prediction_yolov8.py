@@ -49,8 +49,7 @@ class Nodo(Node):
             image_processed = cv2.cvtColor(image_processed, cv2.COLOR_RGBA2RGB)
 
             # Realiza predicciones en el cuadro
-            results = self.model.predict(image_processed, device=0)[0]
-            print(results.boxes.cpu().numpy())
+            results = self.model.predict(image_processed, device=0, verbose=False)[0]
             boxes = results.boxes.cpu().numpy().xywh
             classes = results.boxes.cpu().numpy().cls
             bbox_msg = BboxTrafficLight()          
