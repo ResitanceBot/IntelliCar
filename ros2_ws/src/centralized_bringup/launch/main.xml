@@ -30,4 +30,7 @@
     <!-- Rviz Visualizer Load -->
     <node exec="rviz2" name="rviz" pkg="rviz2" args="-d $(find-pkg-share centralized_bringup)/config/default.rviz" />
 
+    <!-- Color Segmentator-->
+    <node exec="color_segmentator_node" name="color_segmentator" pkg="traffic_light_task"/>
+
 </launch>

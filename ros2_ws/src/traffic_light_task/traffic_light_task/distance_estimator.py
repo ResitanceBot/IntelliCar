@@ -43,24 +43,20 @@ class DistanceDetector(Node):
     def bbox_callback(self, msg):
         self.bbox = msg
 
-    def start(self):
-        while rclpy.ok():
-            if self.image is not None:    
-
-                dist_msg = Int32()
-                dist_msg.data = 0
-                # Publicar distancia estimada
-                self.publisher_.publish(dist_msg)
-            self.loop_rate.sleep()
+        # Proyeccion de la distancia
+        dist_msg = Int32()
+        dist_msg.data = 0
+        # Publicar distancia estimada
+        self.publisher_.publish(dist_msg)
+        self.loop_rate.sleep()
         
 def main(args=None):
     rclpy.init(args=args)
     distance_detector = DistanceDetector()
     distance_detector.start()
-
-    # rclpy.spin(distance_detector)
-    # distance_detector.destroy_node()
-    # rclpy.shutdown()
+    rclpy.spin(distance_detector)
+    distance_detector.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
