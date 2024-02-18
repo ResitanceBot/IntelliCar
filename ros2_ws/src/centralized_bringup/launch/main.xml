@@ -28,6 +28,6 @@
     <node name="yolo_detection_node" pkg="yolo_detection" exec="prediction_yolov8_node" output="screen"/>
     
     <!-- Rviz Visualizer Load -->
-    <node exec="rviz2" name="rviz" pkg="rviz2" args="-d $(find-pkg-share rviz_carla_plugin)/config/default.rviz" />
+    <node exec="rviz2" name="rviz" pkg="rviz2" args="-d $(find-pkg-share centralized_bringup)/config/default.rviz" />
 
 </launch>

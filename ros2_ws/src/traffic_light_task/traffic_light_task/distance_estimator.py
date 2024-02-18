@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from std_msgs.msg import Int32
-from traffic_light_task.msg import BboxTrafficLight
+from intellicar_interfaces.msg import BboxTrafficLight
 from cv_bridge import CvBridge
 import cv2
 import numpy as np
