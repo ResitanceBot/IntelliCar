@@ -13,8 +13,6 @@ class DistanceDetector(Node):
     def __init__(self):
         super().__init__('distance_detector')
 
-        self.loop_rate = self.create_rate(10)
-
         # Subscriptors
         self.subscription = self.create_subscription(
             Image,

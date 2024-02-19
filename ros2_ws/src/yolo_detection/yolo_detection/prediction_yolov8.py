@@ -12,9 +12,6 @@ class Nodo(Node):
     def __init__(self):
         super().__init__('prediction_node')
 
-        # Node cycle rate (in Hz).
-        self.loop_rate = self.create_rate(10)
-
         # Params
         self.image = None
         self.br = CvBridge()

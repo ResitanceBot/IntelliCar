@@ -34,4 +34,10 @@
     <!-- Color Segmentator-->
     <node exec="color_segmentator_node" name="color_segmentator" pkg="traffic_light_task"/>
 
+    <!-- Distance Estimator-->
+    <node exec="distance_estimator_node" name="distance_estimator" pkg="traffic_light_task"/>
+
+    <!-- Emergency Brake Supervisor -->
+    <node exec="supervisor_eb_node" name="emergency_brake_supervisor" pkg="traffic_light_task" output="screen"/>
+
 </launch>

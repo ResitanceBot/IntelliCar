@@ -83,7 +83,7 @@ int main(int argc, char **argv)
     rclcpp::init(argc, argv);
     auto node = rclcpp::Node::make_shared("gamepad_driver");
 
-    pub = node->create_publisher<geometry_msgs::msg::Twist>("carla/ego_vehicle/twist", 10);
+    pub = node->create_publisher<geometry_msgs::msg::Twist>("intellicar/ego_vehicle/control_command", 10);
     sub = node->create_subscription<sensor_msgs::msg::Joy>("joy", 10, joyCallback);
 
     rclcpp::Rate r(50);

@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'color_segmentator_node = traffic_light_task.color_segmentator:main',
             'distance_estimator_node = traffic_light_task.distance_estimator:main',
+            'supervisor_eb_node = traffic_light_task.supervisor_emergency_brake:main',
         ],
     },
 )

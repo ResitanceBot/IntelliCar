@@ -10,8 +10,6 @@ class SemaforoDetector(Node):
     def __init__(self):
         super().__init__('semaforo_detector')
 
-        self.loop_rate = self.create_rate(10)
-
         self.subscription = self.create_subscription(
             Image,
             '/intellicar/ego_vehicle/rgb_front/traffic_light_image',
