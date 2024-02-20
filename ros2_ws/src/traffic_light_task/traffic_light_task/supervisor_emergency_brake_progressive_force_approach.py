@@ -4,9 +4,10 @@ from std_msgs.msg import String
 from std_msgs.msg import Float32
 from geometry_msgs.msg import Twist
 
-REF_DISTANCE = 4.0
+REF_DISTANCE = 3.0
 TL_SEEN_DELAY_CONST = 6 # 6x2ms = 12ms antes de interpretrar que ya no hay semáforo
-BREAK_FORCE = 1.5 #segundos que se tarda en desacelerar 10m/s
+BREAK_DISTANCE = 15.0
+P_CONTROL = 1.0
 
 class EmergencyBreakSupervisor(Node):
     def __init__(self):
@@ -78,16 +79,18 @@ class EmergencyBreakSupervisor(Node):
             self.tl_seen = False
 
         red_semaphore_condition = (self.tf_light_type == 'Red' and self.tl_seen)
-        semaphore_near_condition = (self.distance_to_target < BREAK_FORCE*self.car_speed)
+        semaphore_near_condition = (self.distance_to_target < BREAK_DISTANCE)
         low_approach_detected = (self.car_speed < 2.0 and self.distance_to_target > REF_DISTANCE)
+        no_brakes_applied_by_user_condition = (self.manual_control_command.linear.x >= 0)
         ref_passed_condition = (self.distance_to_target < REF_DISTANCE)
 
         if red_semaphore_condition and semaphore_near_condition and \
-                (not low_approach_detected) and not (ref_passed_condition):
-            self.supervised_cmd.linear.x = -10.0
+                (not low_approach_detected) and no_brakes_applied_by_user_condition \
+                and not ref_passed_condition:
+            self.supervised_cmd.linear.x = P_CONTROL*((10/BREAK_DISTANCE-REF_DISTANCE)*(self.distance_to_target-REF_DISTANCE)-10)
             self.supervised_cmd.angular.z = 0.0
-            print('FRENADA AUTÓNOMA DE EMERGENCIA')
-        elif not (ref_passed_condition and red_semaphore_condition) or self.manual_control_command.linear.x < 0: # no permitir acelerar cuando el semáforo sigue en rojo y ya se ha aproximado lo suficiente
+            print('FRENADA AUTÓNOMA DE EMERGENCIA, fuerza: ',self.supervised_cmd.linear.x)
+        else:
             self.supervised_cmd = self.manual_control_command
         self.publisher_motion_control.publish(self.supervised_cmd)
         
