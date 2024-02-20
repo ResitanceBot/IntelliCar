@@ -44,4 +44,4 @@ This project is focus on image object detection by training a model using YOLO. 
 More info about the project can be found on Memory.pdf
 
 ##### FUNCTIONAL VIDEO: 
-[![DEMO-Video](https://img.youtube.com/vi/4nHfei47I14/0.jpg)](https://www.youtube.com/watch?v=4nHfei47I14)
+[![DEMO-Video](https://img.youtube.com/vi/j6nA76eiCRw/0.jpg)](https://www.youtube.com/watch?v=j6nA76eiCRw)
