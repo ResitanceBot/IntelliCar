@@ -35,7 +35,8 @@ This project is focus on image object detection by training a model using YOLO. 
 ![A](imgs/collage-demo.png)
 
 ##### TRAFFIC LIGHT STATE AND EMERGENCY BRAKE SUPERVISOR
-
+![A](imgs/traffic_light_task_diagram.png)
+![A](imgs/classic_color_segmentation.png)
 
 
 ---
