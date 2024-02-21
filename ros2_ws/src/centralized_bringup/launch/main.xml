@@ -1,0 +1,43 @@
+<launch>
+
+    <!-- Launcher parameters -->
+    <arg name='host' default='localhost'/>
+    <!-- <arg name='host' default='100.92.38.62'/> -->
+    <arg name='port' default='2000'/>
+    <arg name="town" default="Town01"/>
+    <arg name='timeout' default='200'/>
+    <arg name='vehicle_model' default=''/>
+
+    <!-- CARLA-ROS Bridge -->
+    <include file="$(find-pkg-share carla_ros_bridge)/carla_ros_bridge.launch.py">
+        <arg name='host' value='$(var host)'/>
+        <arg name='port' value='$(var port)'/>
+        <arg name='town' value='$(var town)'/>
+        <arg name='timeout' value='$(var timeout)'/>
+    </include>
+
+    <!-- Object Spawner -->
+    <include file="$(find-pkg-share carla_spawn_objects)/carla_example_ego_vehicle.launch.py">
+        <arg name="vehicle_model" value="$(var vehicle_model)"/>
+    </include>
+
+    <!-- Ackermann to Carla-Control msgs translator -->
+    <include file="$(find-pkg-share gamepad_driver)/launch/control_mando.xml"/>
+    <include file="$(find-pkg-share carla_twist_to_control)/carla_twist_to_control.launch.py"/>
+
+    <!-- Yolo Processing -->
+    <node name="yolo_detection_node" pkg="yolo_detection" exec="prediction_yolov8_node" output="screen"/>
+    
+    <!-- Rviz Visualizer Load -->
+    <node exec="rviz2" name="rviz" pkg="rviz2" args="-d $(find-pkg-share centralized_bringup)/config/default.rviz" />
+
+    <!-- Color Segmentator-->
+    <node exec="color_segmentator_node" name="color_segmentator" pkg="traffic_light_task"/>
+
+    <!-- Distance Estimator-->
+    <node exec="distance_estimator_node" name="distance_estimator" pkg="traffic_light_task"/>
+
+    <!-- Emergency Brake Supervisor -->
+    <node exec="supervisor_eb_node" name="emergency_brake_supervisor" pkg="traffic_light_task" output="screen"/>
+
+</launch>
