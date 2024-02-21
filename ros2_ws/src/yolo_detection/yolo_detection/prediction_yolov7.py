@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-
-
-## ONLY ROS1 COMPATIBLE, USE YOLOV8 FOR ROS2
-
 import rospy
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
 import cv2
 import supervision as sv
 import yolov7
+
+# ONLY ROS1 COMPATIBLE (TO USE ROS2 PLEASE USE YOLOV8 NODE VERSION)
 
 class Nodo(object):
     def __init__(self):
